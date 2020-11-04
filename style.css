@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Syne Mono", monospace;
+  background-image: url(/images/as5a063o85001.jpg),
+    linear-gradient(hotpink, springgreen);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1.6rem;
+  color: white;
+  background-color: silver;
+}
+
+.container {
+  margin: 3rem auto;
+  max-width: 55rem;
+  padding: 1rem;
+}
+
+header {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 105, 180, 0.658) 1%,
+    rgba(255, 255, 255, 0)
+  );
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 0 0 1px yellow;
+  padding: 3rem 0;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.form-wrap {
+  background-color: rgba(126, 252, 0, 0.438);
+  border-radius: 5%;
+  text-align: center;
+}
+
+.form-wrap h2 {
+  color: springgreen;
+  text-align: left;
+  padding: 2rem;
+}
+
+.form-wrap p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: yellow;
+  font-size: 2rem;
+  padding: 0.2rem 10rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.form-wrap .form-group input {
+  background-color: rgba(238, 130, 238, 0.555);
+  width: 50%;
+  padding: 2rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
