@@ -41,7 +41,7 @@ header {
 
 .form-wrap {
   background-color: rgba(126, 252, 0, 0.438);
-  border-radius: 5%;
+  border-radius: 0;
   text-align: center;
 }
 
@@ -73,4 +73,29 @@ header {
   margin-top: 0.5rem;
   margin-bottom: 2rem;
   border-radius: 50%;
+}
+
+fieldset {
+  border-radius: 50%;
+  padding: 4rem;
+}
+
+button {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: 10%;
+  text-align: center;
+  border-radius: 50%;
+  background-color: hotpink;
+  color: rgba(255, 255, 255, 0.329);
+}
+.form-group {
+  position: relative;
+}
+
+.warning {
+  position: absolute;
+  width: 6%;
+  top: 4.7rem;
+  right: 13rem;
 }
